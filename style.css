@@ -1,0 +1,130 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+@keyframes bodslider{
+    0%{margin-top: 0;}
+    16%{margin-top: 0;}
+    21%{margin-top: -500px;}
+    36%{margin-top: -500px;}
+    41%{margin-top: -1000px;}
+    56%{margin-top: -1000px;}
+    61%{margin-top: -1500px;}
+    76%{margin-top: -1500px;}
+    81%{margin-top: -2000px;}
+    95%{margin-top: -2000px;}
+
+}
+.navbar{
+    background-color: #959090;
+    direction: rtl;
+    text-align: right;
+    padding-right: 30px;
+    border: solid black 4px;
+    border-radius: 5pt;
+    padding: 3px;
+    overflow: hidden;
+}
+ul.menu li{
+    display: inline-block;
+    list-style: none;
+}
+ul.menu li a{
+    display: inline-block;
+    color: black;
+    padding: 18px;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.8s;
+    position: relative;
+    font-size: 18px;
+}
+
+ul.menu li a:hover{
+    background: rgba(129, 13, 13, 1);
+    border:3px;
+    border-radius: 3pt;
+    color: white;
+    font: bold;
+    font-size: 19px;
+    transition-duration: 1s;
+}
+ul.submenu{
+    display: none;
+    width: 160px;
+    position: absolute;
+    border: solid black 3px;
+    border-radius: 4pt;
+    margin-right: -43px;
+}
+ul.menu li i{
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
+ul.menu li:hover ul.submenu{
+    display: block;
+    background: #a2a2a2;
+    width: 160px;
+
+}
+ul.submenu li{
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+ul.submenu li a{
+    display: block;
+}
+body{
+    background-color: rgb(255, 244, 216);
+}
+.bodslider{
+    margin: auto;
+    margin-top: 10px;
+    width: 1300px;
+    height: 500px;
+    background-color: black;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 3pt;
+    overflow: hidden;
+
+}
+.image-slide{
+    float: right;
+    width: 1300px;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+.slider-link{
+    float: left;
+    margin-top: -35px;
+    margin-left: 4px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px 8px 10px;
+    border: solid black 2px;
+    border-radius: 3pt;
+    font-family: tahoma;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+}
+.mainslider{
+    animation: bodslider 15s infinite ;
+}
+.slider-link:hover{
+    background-color: rgba(202, 211, 20, 0.4);
+    color: rgb(0, 0, 0);
+}
+.logo{
+float: left;
+background-image: url(img/logo.jpg) ;
+ ;
+}
+a img{
+    width: 50px;
+    height: 50px;
+    float: left;
+
+}
