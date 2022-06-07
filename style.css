@@ -46,8 +46,6 @@ ul.menu li a:hover{
     border-radius: 3pt;
     color: white;
     font: bold;
-    font-size: 19px;
-    transition-duration: 1s;
 }
 ul.submenu{
     display: none;
