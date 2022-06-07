@@ -124,4 +124,66 @@ a img{
     width: 50px;
     height: 50px;
     float: left;
+
 }
+.footer {
+    padding: 10px;
+    text-align: center; 
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background: #646464; 
+    height: auto; 
+    width: auto; 
+    font-family: Monospace; 
+    color: #fff; 
+    border-top: rgb(124, 8, 8) solid 4px;
+    transition: all 0.8s;
+  }
+  .footer:hover{
+    background:  rgb(19, 18, 18); 
+    transition: all 0.8s;
+  }
+  .footer span {
+    display: block;
+    color: #dddddd;
+    font-family: sans-serif;
+  }
+  
+  .footer span a {
+    color: #c1afaf;
+    text-decoration: none;
+  }
+  
+  .footer .name {
+    margin-bottom: 10px;
+    font-size: 200%;
+    font-family: cookie;
+  }
+  
+  .footer .social-media { margin-bottom: 10px; }
+  .footer .social-media a {
+    padding: 0 5px;
+    font-size: 38px;
+    color: #c1afaf;
+    transition: all 0.8s;
+  }
+  .footer .social-media a:hover {
+    color:white ;
+    transition: all 0.8s;
+  }
+  
+  .footer .copyright { font-size: 60%; }
+  
+  .footer .quick-access a {
+    border-right: 1px solid rgb(56, 105, 146);
+    padding: 0 1em;
+    font-size: 60%;
+    transition: all 0.8s;
+  }
+  .footer .quick-access a:hover{
+      color: #fff;
+      transition: all 0.8s;
+  }
+  .footer .quick-access a:last-child { border: 0; }
